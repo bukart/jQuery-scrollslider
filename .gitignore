@@ -163,5 +163,5 @@ pip-log.txt
 .DS_Store
 
 
-buk.dev github scrollslider.sublime-project
-buk.dev github scrollslider.sublime-workspace
+#buk.dev github scrollslider.sublime-project
+#buk.dev github scrollslider.sublime-workspace
