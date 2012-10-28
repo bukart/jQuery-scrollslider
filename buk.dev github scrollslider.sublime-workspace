@@ -1,0 +1,708 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"trigger",
+				"triggerpartial"
+			],
+			[
+				"tri",
+				"triggerpartial"
+			],
+			[
+				"vie",
+				"viewportAt"
+			],
+			[
+				"current",
+				"currentViewport"
+			],
+			[
+				"com",
+				"componentItemsInViewports"
+			],
+			[
+				"lim",
+				"limitPosition"
+			],
+			[
+				"cur",
+				"currentViewport"
+			],
+			[
+				"cent",
+				"scrollToCenterItem"
+			],
+			[
+				"itemInn",
+				"itemInnerWidth"
+			],
+			[
+				"scroll",
+				"scrollToEnd"
+			],
+			[
+				"goToP",
+				"goToNextPage"
+			],
+			[
+				"scrollTo",
+				"scrollToItem"
+			],
+			[
+				"shi",
+				"shiftHorz"
+			],
+			[
+				"res",
+				"resolution"
+			],
+			[
+				"calc",
+				"calculated"
+			],
+			[
+				"auto",
+				"autotimer"
+			],
+			[
+				"hasA",
+				"hasAutoWidth"
+			],
+			[
+				"max",
+				"maxPosition"
+			],
+			[
+				"hasAut",
+				"hasAutoHeight"
+			],
+			[
+				"itemi",
+				"itemInnerHeight"
+			],
+			[
+				"itemI",
+				"itemInnerWidth"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"hasStaticItemDistri",
+				"hasStaticItemDistribution"
+			],
+			[
+				"hasAutoItemDistri",
+				"hasAutoItemDistribution"
+			],
+			[
+				"prev",
+				"prevbutton"
+			],
+			[
+				"_dete",
+				"_detectButtons"
+			],
+			[
+				"scro",
+				"scrollFor"
+			],
+			[
+				"getPx",
+				"getPxGap"
+			],
+			[
+				"met",
+				"methods"
+			],
+			[
+				"getPxS",
+				"getPxStaticHeight"
+			],
+			[
+				"limi",
+				"limitItemNum"
+			],
+			[
+				"rang",
+				"range"
+			],
+			[
+				"c",
+				"constructor"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"ret",
+				"retval"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"item",
+				"itemwidth"
+			],
+			[
+				"horz",
+				"horzval"
+			],
+			[
+				"stat",
+				"staticwidth"
+			],
+			[
+				"st",
+				"staticwidth"
+			],
+			[
+				"stati",
+				"staticheight"
+			],
+			[
+				"static",
+				"staticwidth"
+			],
+			[
+				"loc",
+				"locations"
+			],
+			[
+				"vert",
+				"vertval"
+			],
+			[
+				"app",
+				"applied"
+			],
+			[
+				"ali",
+				"alignhorz"
+			],
+			[
+				"au",
+				"arguments"
+			],
+			[
+				"dim",
+				"dimensions"
+			],
+			[
+				"set",
+				"setComponents"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"slots",
+				"slotsfreebefore"
+			],
+			[
+				"slot",
+				"slotsfreebefore"
+			],
+			[
+				"slote",
+				"slotsfreebefore"
+			],
+			[
+				"pages",
+				"pagesbefore"
+			],
+			[
+				"page",
+				"pagesbefore"
+			],
+			[
+				"_pro",
+				"_productCollection"
+			],
+			[
+				"img-product",
+				"img-product-extract"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"getOri",
+				"getOriginalWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"set synt ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"settings",
+				"Preferences: Settings - Default"
+			],
+			[
+				"remo pag",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepackage",
+				"Package Control: Remove Package"
+			],
+			[
+				"list packag",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/X/htdocs/buk.dev/github/jQuery-dlsldr/README.md",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/index.html",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/js/scrollslider-0.0.4-example-01.js",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/css/scrollslider-0.0.4-example-01.css",
+		"/X/htdocs/buk.dev/github/jQuery-dlsldr/index.html",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/javascripts/scale.fix.js",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/scrollslider-0.0.4-example-01.html",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/js/scrollslider-0.0.4.js",
+		"/X/htdocs/buk.dev/github/jQuery-scrollslider/README.md",
+		"/X/htdocs/buk.dev/jquery/slider/js/scrollslider-0.0.4.js",
+		"/X/htdocs/buk.dev/jquery/slider/scrollslider-0.0.4-example-01.html",
+		"/X/htdocs/buk.dev/jquery/slider/js/scrollslider-0.0.4-example-01.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/scrollslider-0.0.4.min.js",
+		"/X/htdocs/buk.dev/jquery/slider/slider-0.0.4-example-01.html",
+		"/X/htdocs/buk.dev/jquery/slider/test.html",
+		"/X/htdocs/buk.dev/jquery/slider/lib/js/jquery/jquery-1.8.2.js",
+		"/X/htdocs/buk.dev/jquery/slider/lib/js/ie-fixes/ie-fixes.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.4.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.4.min.js",
+		"/X/htdocs/buk.dev/jquery/slider/slider-0.0.3-example-01.html",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.3.js",
+		"/X/htdocs/buk.dev/jquery/slider/lib/js/jquery/jquery-1.8.2.min.js",
+		"/X/htdocs/buk.dev/jquery/slider/lib/js/json-js/json2.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.3.min.js",
+		"/X/htdocs/buk.dev/jquery/slider/slider-0.0.3.html",
+		"/X/htdocs/buk.dev/jquery/slider/slider-0.0.2.html",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.2.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/temp.html",
+		"/X/htdocs/buk.dev/jquery/slider/js/slider-0.0.1.js",
+		"/X/htdocs/buk.dev/jquery/slider/slider-0.0.1.html",
+		"/X/htdocs/buk.dev/jquery/slider/slider.html",
+		"/X/htdocs/mm.dev.kunden/vladi/js/buk-vertcordion-1.0.1.js",
+		"/X/htdocs/buk.dev/jquery/slider/js/mouse2.html",
+		"/X/htdocs/buk.dev/jquery/slider/js/mouse.html",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/MiniTweaks/etc/config.xml",
+		"/X/htdocs/mm.dev.kunden/vade/app/locale/de_DE/Mandarin_MiniTweaks.csv",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/ProductInfotabs/Block/Authorinfo/Products.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/layout/local.xml",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Block/Product/List/Toolbar.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/base/default/layout/catalog.xml",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/template/catalog/product/view.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/base/default/template/catalog/product/list.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Block/Product/List.php",
+		"/X/htdocs/mm.dev.kunden/vade/skin/frontend/vade/default/css/styles.css",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/template/productinfotabs/authorinfo/products.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/template/productinfotabs/authorinfo.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/ProductInfotabs/Block/Authorinfo.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/adminhtml/default/default/layout/catalog.xml",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/adminhtml/default/default/template/example.phtml",
+		"/X/htdocs/mm.dev.kunden/blissany/blissany.sublime-project",
+		"/X/htdocs/mm.dev.kunden/vade/js/jquery/jquery-prettyphoto-3.1.4/css/prettyPhoto.css",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/MiniTweaks/Helper/Product.php",
+		"/X/htdocs/mm.dev.kunden/vade/skin/frontend/vade/default/js/vade.js",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/template/catalog/product/view/media.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/MiniTweaks/Block/Catalog/Product/View/Extract.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/vade/default/template/catalog/product/view/extract.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/js/jquery/jquery.bkfrontbox-0.1.0.js",
+		"/C/Users/bk/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/X/htdocs/mm.dev.kunden/vade/js/jquery/jquery-prettyphoto-3.1.4/js/jquery.prettyPhoto.js",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Model/Product/Media/Config.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/VadeEntities/Helper/Author.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Helper/Image.php",
+		"/X/htdocs/mm.dev.kunden/vade/lib/Varien/Data/Collection.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/MiniTweaks/Block/Catalog/Product/View/Media.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Block/Product/View/Media.php",
+		"/C/Users/bk/AppData/Local/Temp/{DB3262A9-1BD6-4D63-8084-F0369A7858C5}/bKewl.php",
+		"/X/htdocs/mm.dev.kunden/vade/app/design/frontend/base/default/template/catalog/product/view/media.phtml",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/core/Mage/Catalog/Model/Product.php",
+		"/C/Users/bk/AppData/Roaming/Sublime Text 2/Packages/MagentoIntel/README.md",
+		"/X/htdocs/mm.dev.kunden/vade/app/code/local/Mandarin/MiniTweaks/Model/Product/Attribute/Backend/Media.php",
+		"/D/htdocs/mm.dev.kunden/vade/Verlag an der Este.sublime-project",
+		"/X/htdocs/mm.dev.kunden/vade/.git/config",
+		"/X/htdocs/mm.dev.kunden/vade/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.phtml",
+			"*.xml",
+			"*.js",
+			"*.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"settings",
+			"PrevPage",
+			"Next",
+			"shown",
+			"trigger",
+			"slider",
+			"top",
+			"'ranges",
+			"string",
+			"/inner",
+			"ranges",
+			"hasAutoItemsHeight",
+			"$()",
+			"camelCase",
+			"$()",
+			"arrayDiff",
+			"50",
+			"                        buttons         : {\n                            prev            : $( '.prev', $stage ),\n                            next            : $( '.next', $stage )\n                        }\n",
+			"centeritem",
+			"shown",
+			"id",
+			"</h2>",
+			"h2",
+			"<h2 class=\"heading\"",
+			"plugin",
+			"items2",
+			"items1",
+			"d2",
+			"d1",
+			"i2",
+			"i1",
+			"viewport2",
+			"viewport1",
+			"itemsInViewport",
+			"vp",
+			"vp1",
+			"itemsInViewport",
+			"itemsInViewports",
+			"itemsInViewport",
+			"items1",
+			"d1",
+			"items1",
+			"pid",
+			"outer",
+			"viewportAt",
+			"top",
+			"left",
+			"Width",
+			"left",
+			"position/max",
+			"top",
+			"Width",
+			"left",
+			"centerable",
+			"\n        ",
+			"items/margin",
+			"itemsAlignRight",
+			"background:#f0a;width:200px;height:200px;",
+			"height",
+			"Height",
+			"adjus",
+			"'auto' === plugin.getSettings( 'height' )",
+			"'auto' === plugin.getSettings( 'width' )",
+			"hasautoh",
+			"auto",
+			"scrollTo",
+			"toitem",
+			"border:3px double #000;",
+			"background:#ccc;",
+			"float:left;",
+			"__NMSP__",
+			"val2px",
+			"$el",
+			"setComp",
+			"callee",
+			"eq(0).",
+			"(1",
+			"rad",
+			".x",
+			".log",
+			".x",
+			"min",
+			".y",
+			".",
+			".x",
+			");",
+			"x",
+			"p",
+			"a",
+			"p",
+			"link",
+			"x",
+			"l =",
+			"window.innerHeight - 1",
+			"window.innerWidth - 1",
+			"x",
+			"Width",
+			"x",
+			"analy",
+			"goTo",
+			"isVert",
+			"applied",
+			"width",
+			"margins",
+			"'margins",
+			"'margins'",
+			"margins",
+			"getPx",
+			"getPxWidth",
+			"position/max",
+			"prev",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"item/width",
+			"position/min",
+			"position/max",
+			"position/current",
+			"position/max",
+			"\\1intern.\\2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 106.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"minicsv",
+				"app/locale/de_DE/Mandarin_MiniTweaks.csv"
+			],
+			[
+				"catalog.xml",
+				"app/design/frontend/base/default/layout/catalog.xml"
+			],
+			[
+				"mage/catalog/product/list.php",
+				"app/code/core/Mage/Catalog/Block/Product/List.php"
+			],
+			[
+				"pretty",
+				"js/jquery/jquery-prettyphoto-3.1.4/css/prettyPhoto.css"
+			],
+			[
+				"vadestyles.css",
+				"skin/frontend/vade/default/css/styles.css"
+			],
+			[
+				"styles.css",
+				"skin/frontend/vade/default/css/styles.css"
+			],
+			[
+				"vadestyle.css",
+				"skin/frontend/vade/default/css/styles.css"
+			],
+			[
+				"vade.js",
+				"skin/frontend/vade/default/js/vade.js"
+			],
+			[
+				"prettycss",
+				"js/jquery/jquery-prettyphoto-3.1.4/css/prettyPhoto.css"
+			],
+			[
+				"minitwemedia",
+				"app/code/local/Mandarin/MiniTweaks/Model/Product/Attribute/Backend/Media.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"vladi",
+				"/X/htdocs/mm.dev.kunden/vladi/Vladi Private Islands.sublime-project"
+			],
+			[
+				"vlad",
+				"/X/htdocs/mm.dev.kunden/vladi/Vladi Private Islands.sublime-project"
+			],
+			[
+				"",
+				"/X/htdocs/mm.dev.kunden/vade/Verlag an der Este.sublime-project"
+			],
+			[
+				"vade",
+				"/X/htdocs/mm.dev.kunden/vade/Verlag an der Este.sublime-project"
+			],
+			[
+				"VADE",
+				"/X/htdocs/mm.dev.kunden/vade/Verlag an der Este.sublime-project"
+			],
+			[
+				"bliss",
+				"/X/htdocs/mm.dev.kunden/blissany/blissany.sublime-project"
+			],
+			[
+				"blis",
+				"/X/htdocs/mm.dev.kunden/blissany/blissany.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true
+}
