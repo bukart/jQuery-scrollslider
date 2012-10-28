@@ -30,9 +30,41 @@
       </header>
       <section>
 
-        <h3>jQuery - scrollslider</h3>
 
-        <div class="stage">
+        <div class="stage info">
+            <div class="nav">
+                <a class="prev">&laquo; prev</a>&emsp;
+                <a class="next">next &raquo;</a>
+            </div>
+            <div class="scrollslider">
+                <div class="item intro">
+                    <h3>jQuery - scrollslider</h3>
+
+                    <p>Let's start with the <a href="#markup" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.markup' ) );">markup</a></p>
+
+                </div>
+                <div class="item markup">
+                    <h3>Markup</h3>
+
+                    <pre><code>&lt;ul&gt;
+    &lt;li&gt;item 1&lt;/li&gt;
+    &lt;li&gt;item 2&lt;/li&gt;
+    &hellip;
+&lt;/ul&gt;
+</code></pre>
+
+                    <p><a href="#initialization" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.initialization' ) );">initialization</a></p>
+
+                </div>
+                <div class="item initialization">
+                    <h3>Initialization</h3>
+
+                    <pre><code>$( 'ul' ).scrollslider();</code></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="stage demo">
             <div class="nav">
                 <a class="prev">&laquo; prev</a>&emsp;
                 <a class="next">next &raquo;</a>

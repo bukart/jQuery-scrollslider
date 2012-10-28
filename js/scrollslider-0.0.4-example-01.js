@@ -3,6 +3,21 @@
     $( function() {
 
 
+        var $stage = $( '.stage.info .scrollslider' ).scrollslider( {
+                items   : {
+                    distribution    : 'static',
+                    width           : '488',
+                    height          : '300',
+                    centeronclick   : false
+                },
+                buttons : {
+                    prev            : $( '.prev', $stage ),
+                    next            : $( '.next', $stage )
+                }
+            } );
+
+
+
         var configs = [];
 
         configs.push( {
@@ -101,13 +116,13 @@
             } );
 
 
-        var $stage = $( '.stage' );
+        var $stage = $( '.stage.demo' );
 
         for ( var i = 1; i < configs.length; i++ ) {
             $stage.clone().insertAfter( $stage );
         }
 
-        $( '.stage' ).each( function( num ) {
+        $( '.stage.demo' ).each( function( num ) {
             var $stage = $( this );
 
             var config = configs[ num ];
@@ -144,7 +159,7 @@
         } );
 
 
-        $( '.scrollslider', $( '.stage' ).eq(3) ).children().css( {
+        $( '.scrollslider', $( '.stage.demo' ).eq(3) ).children().css( {
             'opacity'       : '0.25'
         } ).on( 'scrollslider-shown', function() {
             var $this = $( this );
@@ -159,9 +174,9 @@
                 'opacity'       : '0.25'
             } );
         } );
-        $( '.scrollslider', $( '.stage' ).eq(3) ).scrollslider( 'goTo', 0 );
+        $( '.scrollslider', $( '.stage.demo' ).eq(3) ).scrollslider( 'goTo', 0 );
 
-        $( '.scrollslider', $( '.stage' ).eq(5) ).children().on( 'scrollslider-shown', function() {
+        $( '.scrollslider', $( '.stage.demo' ).eq(5) ).children().on( 'scrollslider-shown', function() {
             var $this = $( this );
 
             $this.slideUp().slideDown();

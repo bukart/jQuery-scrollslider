@@ -39,6 +39,17 @@
 
 }
 
+.stage.info .nav {
+    bottom:0px;
+    right:0px;
+}
+
+.stage.info .scrollslider .item {
+    width:468px;
+    height:280px;
+    padding:10px;
+}
+
 .stage .nav * {
     cursor      : pointer;
 }
