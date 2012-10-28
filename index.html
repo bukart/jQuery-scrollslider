@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jquery-scrollslider by bukfixart</title>
+    <title>jQuery - scrollslider by bukfixart</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+    <link rel="stylesheet" href="css/scrollslider-0.0.4-example-01.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +16,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Jquery-scrollslider</h1>
+        <h1>jQuery - scrollslider</h1>
         <p></p>
 
         <p class="view"><a href="https://github.com/bukfixart/jQuery-scrollslider">View the Project on GitHub <small>bukfixart/jQuery-scrollslider</small></a></p>
@@ -28,39 +29,54 @@
         </ul>
       </header>
       <section>
-        <h3>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <h3>jQuery - scrollslider</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <div class="stage">
+            <div class="nav">
+                <a class="prev">&laquo; prev</a>&emsp;
+                <a class="next">next &raquo;</a>
+            </div>
+            <div class="options"><strong>Options</strong></div>
+            <div class="scrollslider">
+                <img src="./media/animals/animals-01.jpg" width="140" height="210"/>
+                <img src="./media/animals/animals-02.jpg" width="174" height="116"/>
+                <img src="./media/animals/animals-03.jpg" width="174" height="248"/>
+                <img src="./media/animals/animals-04.jpg" width="174" height="153"/>
+                <img src="./media/animals/animals-05.jpg" width="240" height="160"/>
+                <img src="./media/animals/animals-06.jpg" width="288" height="192"/>
+                <img src="./media/animals/animals-07.jpg" width="174" height="130" style="margin-top:100px;margin-left:50px;"/>
+                <img src="./media/animals/animals-08.jpg" width="174" height="207"/>
+                <img src="./media/animals/animals-09.jpg" width="174" height="116" style="margin-top:-100px;margin-left:-50px;"/>
+                <div style="width:280px;background:#fff;padding:10px;font-size:10px;text-align:justify;">
+                    <img src="./media/animals/animals-10.jpg" width="150" height="112" align="right" style="margin:0px 0px 10px 10px;"/>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+                    <p>Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext.</p>
 
-<h3>Designer Templates</h3>
+                    <p>Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden.</p>
+                </div>
+            </div>
+        </div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-<h3>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <script type="text/javascript" src="./lib/js/jquery/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="./lib/js/json-js/json2.js"></script>
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="./lib/js/ie-fixes/ie-fixes.js"></script>
+        <![endif]-->
+        <!-- <script type="text/javascript" src="./js/scrollslider-0.0.4.min.js"></script> -->
+        <script type="text/javascript" src="./js/scrollslider-0.0.4.js"></script>
+        <script type="text/javascript" src="./js/scrollslider-0.0.4-example-01.js"></script>
 
-<h3>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/bukfixart">bukfixart</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="./lib/js/scale-fix/scale.fix.js"></script>
+
   </body>
 </html>
