@@ -14,17 +14,17 @@ Hey, just [visit the github page about this plugin](http://bukfixart.github.com/
 
 ### Markup
 ```
-<div class="scrollslider">
-    <div>item 1</div>
-    <div>item 2</div>
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
     …
-</div>
+</ul>
 ```
 ### Methods
 
 #### Initialization - `init()`
 ```
-jQuery( '.scrollslider' ).scrollslider( [ options ] );
+jQuery( 'ul' ).scrollslider( [ options ] );
 ```
 Initializes the plugin with the given [options](#default-options) which are explained below.
 The [options](#default-options) are optional ;-) so you haven't to configure them.
@@ -32,92 +32,92 @@ The [options](#default-options) are optional ;-) so you haven't to configure the
 
 #### `goTo()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goTo', pos );
+jQuery( 'ul' ).scrollslider( 'goTo', pos );
 ```
 
 #### `scrollTo()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollTo', pos [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollTo', pos [, default jQuery animation parameters] );
 ```
 
 #### `goToItem()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToItem', item );
+jQuery( 'ul' ).scrollslider( 'goToItem', item );
 ```
 
 #### `scrollToItem()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToItem', item [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToItem', item [, default jQuery animation parameters] );
 ```
 
 #### `goToCenterItem()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToCenterItem', item );
+jQuery( 'ul' ).scrollslider( 'goToCenterItem', item );
 ```
 
 #### `scrollToCenterItem()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToCenterItem', item [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToCenterItem', item [, default jQuery animation parameters] );
 ```
 
 #### `goFor()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goFor', amount );
+jQuery( 'ul' ).scrollslider( 'goFor', amount );
 ```
 
 #### `scrollFor()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollFor', amount [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollFor', amount [, default jQuery animation parameters] );
 ```
 
 #### `goToNextPage()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToNextPage' );
+jQuery( 'ul' ).scrollslider( 'goToNextPage' );
 ```
 
 #### `scrollToNextPage()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToNextPage' [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToNextPage' [, default jQuery animation parameters] );
 ```
 
 #### `goToPrevPage()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToPrevPage' );
+jQuery( 'ul' ).scrollslider( 'goToPrevPage' );
 ```
 
 #### `scrollToPrevPage()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToPrevPage' [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToPrevPage' [, default jQuery animation parameters] );
 ```
 
 #### `goToStart()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToStart' );
+jQuery( 'ul' ).scrollslider( 'goToStart' );
 ```
 
 #### `scrollToStart()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToStart' [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToStart' [, default jQuery animation parameters] );
 ```
 
 #### `goToEnd()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'goToEnd' );
+jQuery( 'ul' ).scrollslider( 'goToEnd' );
 ```
 
 #### `scrollToEnd()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'scrollToEnd' [, default jQuery animation parameters] );
+jQuery( 'ul' ).scrollslider( 'scrollToEnd' [, default jQuery animation parameters] );
 ```
 
 #### `settings()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'settings' );
+jQuery( 'ul' ).scrollslider( 'settings' );
 ```
 
 #### `status()`
 ```
-jQuery( '.scrollslider' ).scrollslider( 'status' );
+jQuery( 'ul' ).scrollslider( 'status' );
 ```
 
 
@@ -174,4 +174,4 @@ var defaults = {
 
 ## Events
 
-scrollslider-show, scrollslider-hide, scrollslider-shown, scrollslider-hidden
+Currently there are some basic words about events on the [project's github page](http://bukfixart.github.com/jQuery-scrollslider/#events)
