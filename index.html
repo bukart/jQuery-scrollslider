@@ -19,13 +19,13 @@
         <h1 style="cursor:pointer;" onclick="jQuery( '.scrollslider' ).scrollslider( 'scrollToStart' );">jQuery - scrollslider</h1>
         <p>A simple slider for any HTML contents.</p>
 
-        <p class="view"><a href="https://github.com/bukfixart/jQuery-scrollslider">View the Project on GitHub <small>bukfixart/jQuery-scrollslider</small></a></p>
+        <p class="view"><a href="https://github.com/bukfixart/jQuery-scrollslider" target="githubscrollslider" title="View the Project on GitHub : bukfixart/jQuery-scrollslider">View the Project on GitHub <small>bukfixart/jQuery-scrollslider</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/bukfixart/jQuery-scrollslider/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/bukfixart/jQuery-scrollslider/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/bukfixart/jQuery-scrollslider">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/bukfixart/jQuery-scrollslider/zipball/master" title="Download ZIP File">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bukfixart/jQuery-scrollslider/tarball/master" title="Download TAR Ball">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bukfixart/jQuery-scrollslider" target="githubscrollslider" title="View On GitHub">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
@@ -33,18 +33,23 @@
 
         <div class="stage info">
             <div class="nav">
-                <a class="prev">&laquo; prev</a>&emsp;
-                <a class="next">next &raquo;</a>
+                <a class="prev" title="previous slide">&laquo; prev</a>&emsp;
+                <a class="next" title="next slide">next &raquo;</a>
             </div>
             <div class="scrollslider">
                 <div class="item intro">
                     <h3>jQuery - scrollslider</h3>
 
-                    <p>Let's start with the <a href="#markup" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.markup' ) );">markup</a> or see the <a href="#index" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'goToItem', jQuery( '.stage.info .scrollslider .item.index' ) );">index</a></p>
+                    <p>This plugin allows you to slide, scroll, step through the children of any HTML element.<br/>
+                        The clou: It wont touch your markup.</p>
+
+                    <p>Let's start with the <a href="#markup" title="Markup" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToCenterItem', jQuery( '.stage.info .scrollslider .item.markup' ) );">&raquo;markup</a> or see <a href="#index" title="Index" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'goToCenterItem', jQuery( '.stage.info .scrollslider .item.index' ) );">&raquo;the index</a></p>
 
                 </div>
                 <div class="item markup">
                     <h3>Markup</h3>
+
+                    <p>The markup is quite simple, just use a default <code>&lt;ul&gt;</code> tag with its <code>&lt;li&gt;</code> children or any other structure of your choice with a parent and its children tags.</p>
 
                     <pre><code>&lt;ul&gt;
     &lt;li&gt;item 1&lt;/li&gt;
@@ -53,69 +58,145 @@
 &lt;/ul&gt;
 </code></pre>
 
-                    <p><a href="#initialization" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.initialization' ) );">initialization</a></p>
+                    <p>After you've written your markup, the only thing you've to do is to start the <a href="#initialization" title="Initialization" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.initialization' ) );">&raquo;initialization</a> of the plugin.</p>
 
                 </div>
                 <div class="item initialization">
                     <h3>Initialization</h3>
 
+                    <p>To initialize the plugin just use this little snippet inside your javascript</p>
+
                     <pre><code>$( 'ul' ).scrollslider();</code></pre>
 
-                    <p><a href="#compatibility" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.compatibility' ) );">compatibility</a></p>
+                    <p>and it's done.</p>
+
+                    <p>You shouldn't concern about the user's browsers. It has a high <a href="#compatibility" title="Compatibility" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.compatibility' ) );">&raquo;compatibility</a> to many browsers.</p>
 
                 </div>
                 <div class="item compatibility">
                     <h3>Compatibility</h3>
 
-                    <p>tested with FF, Chrome, Safari, Opera, IE7-9</p>
+                    <p>This plugin is actually tested with FireFox 16, Crome 22, Opera 12, Safari 5.1 and IE 9.</p>
 
-                    <p><a href="#config" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.config' ) );">options</a></p>
+                    <p>It's also compatible with IE 8 and IE 7 by including this <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/lib/js/ie-fixes/ie-fixes.js" target="githubscrollslider" title="View fixes for older IE">fix</a> for them. For example with conditional comments.</p>
+
+                    <pre><code>&lt;!--[if lt IE 9]&gt;
+    &lt;script type="text/javascript" src="ie-fixes.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;</code></pre>
+
+
+                    <p>Now your instance is running, you could take a look at the possible <a href="#config" title="Options" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.config' ) );">&raquo;options</a> to customize the behaviour.</p>
 
                 </div>
                 <div class="item config">
                     <h3>Options</h3>
 
-                    <p><a href="#methods" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.methods' ) );">methods</a></p>
+                    <p>There's a bunch of possible options to customize your instance.</p>
 
-                    <p>Unfortunately there aren't more information here, since they'll be written. Please take a look at the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md" target="githubscrollslider" title="readme">readme</a> of this project.</p>
+                    <pre><code>defaults = {
+    width           : 'auto',
+    height          : 'auto',
+    orientation     : 'horz',
+    items           : {
+        width           : 'auto',
+        height          : 'auto',
+        distribution    : 'auto',
+        align           : {
+            horz            : 'center',
+            vert            : 'middle'
+        },
+        margins         : true,
+        gap             : '0px',
+        centerable      : false,
+        centeronclick   : true,
+        triggerpartial  : true
+    },
+    buttons         : {
+        prev            : null,
+        next            : null
+    },
+    styles          : {
+        base            : {
+            'overflow'      : 'hidden',
+            'position'      : 'relative'
+        },
+        item            : {
+            'position'      : 'absolute'
+        },
+        helper          : {
+            'position'      : 'absolute',
+            'left'          : '0px',
+            'top'           : '0px',
+            'visibility'    : 'hidden',
+            'z-index'       : 0
+        }
+    }
+};</code></pre>
 
+                    <p>For detailed information, please see the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md#default-options" target="githubscrollslider" title="see the project's readme file">project's readme</a>.</p>
+
+                    <p>To interact with your instance, you're able to do so with some integrated <a href="#methods" title="Methods" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.methods' ) );">&raquo;methods</a>.</p>
 
                 </div>
                 <div class="item methods">
                     <h3>Methods</h3>
 
-                    <p><a href="#events" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.events' ) );">events</a></p>
-                    <p>Unfortunately there aren't more information here, since they'll be written. Please take a look at the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md" target="githubscrollslider" title="readme">readme</a> of this project.</p>
+                    <p>At the moment you can see all available methods in the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md#methods" target="githubscrollslider"  title="see the project's readme file">project's readme.</a></p>
+
+                    <p>Interaction is also possible with <a href="#events" title="Events" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.events' ) );">&raquo;events</a></p>
 
                 </div>
                 <div class="item events">
                     <h3>Events</h3>
 
-                    <p><a href="#examples" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.examples' ) );">examples</a></p>
-                    <p>Unfortunately there aren't more information here, since they'll be written. Please take a look at the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md" target="githubscrollslider" title="readme">readme</a> of this project.</p>
+                    <p>The plugin provides some predefined events.</p>
 
+                    <dl>
+                        <dt>scrollslider-show, scrollslider-hide</dt>
+                        <dd>Will be triggered to child elements, being visible (resp. invisible) when the current action completes. These events are called immediately before the action starts.</dd>
+                        <dt>scrollslider-shown, scrollslider-hidden</dt>
+                        <dd>Will be triggered to child elements, are visible (resp. invisible) when the latest action completes. These events are called after the slider stops/finished its scrolling.</dd>
+                    </dl>
+
+                    <p>Let's take a look at the <a href="#examples" title="Examples" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.examples' ) );">&raquo;examples</a> below.</p>
 
                 </div>
                 <div class="item examples">
                     <h3>Examples</h3>
 
-                    <p><a href="#index" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.index' ) );">index</a></p>
-                    <p>Unfortunately there aren't more information here, since they'll be written. Please take a look at the <a href="https://github.com/bukfixart/jQuery-scrollslider/blob/master/README.md" target="githubscrollslider" title="readme">readme</a> of this project.</p>
+                    <p>The examples shown below all uses the same markup (see code box below). The main differences are the used <a href="#config" title="Options" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.config' ) );">&raquo;options</a> combined with some <a href="#events" title="Events" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.events' ) );">&raquo;events</a> in two cases. The used options are available by clicking at the corresponding <em>options</em> label.</p>
 
+                    <pre><code>&lt;div class=&quot;scrollslider&quot;&gt;
+    &lt;img src=&quot;./media/animals/animals-01.jpg&quot; width=&quot;140&quot; height=&quot;210&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-02.jpg&quot; width=&quot;174&quot; height=&quot;116&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-03.jpg&quot; width=&quot;174&quot; height=&quot;248&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-04.jpg&quot; width=&quot;174&quot; height=&quot;153&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-05.jpg&quot; width=&quot;240&quot; height=&quot;160&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-06.jpg&quot; width=&quot;288&quot; height=&quot;192&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-07.jpg&quot; width=&quot;174&quot; height=&quot;130&quot; style=&quot;margin-top:100px;margin-left:50px;&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-08.jpg&quot; width=&quot;174&quot; height=&quot;207&quot;/&gt;
+    &lt;img src=&quot;./media/animals/animals-09.jpg&quot; width=&quot;174&quot; height=&quot;116&quot; style=&quot;margin-top:-100px;margin-left:-50px;&quot;/&gt;
+    &lt;div style=&quot;width:224px;background:#fff;padding:10px;font-size:10px;text-align:justify;&quot;&gt;
+        &lt;img src="./media/animals/animals-10.jpg" width="150" height="112" align="right" style="margin:0px 0px 10px 10px;"/&gt;
+        &lt;p&gt;Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
 
                 </div>
                 <div class="item index">
                     <h3>Index</h3>
 
                     <ul>
-                      <li><a href="#intro" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.intro' ) );">intro</a></li>
-                      <li><a href="#markup" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.markup' ) );">markup</a></li>
-                      <li><a href="#initialization" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.initialization' ) );">initialization</a></li>
-                      <li><a href="#compatibility" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.compatibility' ) );">compatibility</a></li>
-                      <li><a href="#config" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.config' ) );">options</a></li>
-                      <li><a href="#methods" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.methods' ) );">methods</a></li>
-                      <li><a href="#examples" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.examples' ) );">examples</a></li>
-                      <li><a href="#events" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.events' ) );">events</a></li>
+                      <li><a href="#intro" title="jQuery - scrollSlider" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.intro' ) );">&raquo;jQuery - scrollslider</a></li>
+                      <li><a href="#markup" title="Markup" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.markup' ) );">&raquo;Markup</a></li>
+                      <li><a href="#initialization" title="Initialization" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.initialization' ) );">&raquo;Initialization</a></li>
+                      <li><a href="#compatibility" title="Compatibility" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.compatibility' ) );">&raquo;Compatibility</a></li>
+                      <li><a href="#config" title="Options" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.config' ) );">&raquo;Options</a></li>
+                      <li><a href="#methods" title="Methods" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.methods' ) );">&raquo;Methods</a></li>
+                      <li><a href="#events" title="Events" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.events' ) );">&raquo;Events</a></li>
+                      <li><a href="#examples" title="Examples" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.examples' ) );">&raquo;Examples</a></li>
+                      <li><a href="#index" title="Index" onclick="jQuery('.stage.info .scrollslider').scrollslider( 'scrollToItem', jQuery( '.stage.info .scrollslider .item.index' ) );">&raquo;Index - you are here!1!!</a></li>
                     </ul>
 
                 </div>
@@ -124,10 +205,10 @@
 
         <div class="stage demo">
             <div class="nav">
-                <a class="prev">&laquo; prev</a>&emsp;
-                <a class="next">next &raquo;</a>
+                <a class="prev" title="scroll one page left">&laquo; prev</a>&emsp;
+                <a class="next" title="scroll one page right">next &raquo;</a>
             </div>
-            <div class="options"><strong>Options</strong></div>
+            <div class="options"><strong title="View configuration for this instance">Options</strong></div>
             <div class="scrollslider">
                 <img src="./media/animals/animals-01.jpg" width="140" height="210"/>
                 <img src="./media/animals/animals-02.jpg" width="174" height="116"/>
@@ -140,7 +221,6 @@
                 <img src="./media/animals/animals-09.jpg" width="174" height="116" style="margin-top:-100px;margin-left:-50px;"/>
                 <div style="width:224px;background:#fff;padding:10px;font-size:10px;text-align:justify;">
                     <img src="./media/animals/animals-10.jpg" width="150" height="112" align="right" style="margin:0px 0px 10px 10px;"/>
-
                     <p>Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext.</p>
                 </div>
             </div>
@@ -150,18 +230,19 @@
 
         <script type="text/javascript" src="./lib/js/jquery/jquery-1.8.2.min.js"></script>
         <script type="text/javascript" src="./lib/js/json-js/json2.js"></script>
+        <script type="text/javascript" src="./lib/js/ba-hashchange/ba-hashchange-1.3.min.js"></script>
         <!--[if lt IE 9]>
             <script type="text/javascript" src="./lib/js/ie-fixes/ie-fixes.js"></script>
         <![endif]-->
-        <!-- <script type="text/javascript" src="./js/scrollslider-0.0.4.min.js"></script> -->
-        <script type="text/javascript" src="./js/scrollslider-0.0.4.js"></script>
+        <script type="text/javascript" src="./js/scrollslider-0.0.4.min.js"></script>
+        <!-- <script type="text/javascript" src="./js/scrollslider-0.0.4.js"></script> -->
         <script type="text/javascript" src="./js/scrollslider-0.0.4-example-01.js"></script>
 
 
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/bukfixart">bukfixart</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>This project is maintained by <a href="https://github.com/bukfixart" target="githubscrollslider" title="bukfixart">bukfixart</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank" title="orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="./lib/js/scale-fix/scale.fix.js"></script>

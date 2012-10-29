@@ -2,21 +2,46 @@
 
     $( function() {
 
-
-        var $stage = $( '.stage.info .scrollslider' ).scrollslider( {
-                items   : {
-                    distribution    : 'static',
-                    width           : '488',
-                    height          : '300',
-                    centeronclick   : false
-                },
-                buttons : {
-                    prev            : $( '.prev', $stage ),
-                    next            : $( '.next', $stage )
+        $( '.stage.info .scrollslider' ).scrollslider( {
+            items   : {
+                distribution    : 'static',
+                width           : '488',
+                height          : '350',
+                centeronclick   : false
+            },
+            buttons : {
+                prev            : $( '.stage.info .prev' ),
+                next            : $( '.stage.info .next' )
+            },
+            styles  : {
+                item            : {
+                    'cursor'        : 'default'
                 }
-            } );
+            }
+        } );
+
+        $( window ).hashchange( function() {
+            var hash = location.hash.replace( /^#/, '.' );
+
+            var $item = $( '.stage.info .scrollslider' ).children().filter( hash );
+            $( '.stage.info .scrollslider' ).scrollslider( 'scrollToCenterItem', $item );
+        } );
+
+        $( '.stage.info .scrollslider' ).children().on( 'scrollslider-shown', function() {
+            location.hash= $(this).attr('class').replace( /^.*\s*item\s*(\S+).*$/, '#$1' );
+        } );
 
 
+        if ( location.hash ) {
+            var hash = location.hash.replace( /^#/, '.' );
+
+            var $item = $( '.stage.info .scrollslider' ).children().filter( hash );
+            $( '.stage.info .scrollslider' ).scrollslider( 'goToCenterItem', $item );
+        }
+
+
+
+// return;
 
         var configs = [];
 
@@ -133,11 +158,16 @@
                 'opacity'       : 0.5
             } );
             $options.on( 'click', function() {
-                $( this ).animate( {
-                    'top'       : '5px',
-                    'opacity'   : '0.8',
-                    'height'    : '290px'
-                } );
+
+                if ( 20 == $( this ).height() ) {
+                    $( this ).animate( {
+                        'top'       : '5px',
+                        'opacity'   : '0.8',
+                        'height'    : '290px'
+                    } );
+                } else {
+                    $( this ).trigger( 'mouseleave' );
+                }
                 $( 'pre', $( this ) ).fadeIn();
             } );
 

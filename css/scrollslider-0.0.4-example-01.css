@@ -3,8 +3,8 @@
     height          : 300px;
     position        : relative;
     background      : #f8f8f8;
-    float           : left;
-    margin          : 20px;
+    /*float           : left;*/
+    margin          : 0px auto 20px;
     border          : 1px solid #e5e5e5;
     border-radius   : 5px;
     padding         : 5px;
@@ -39,15 +39,28 @@
 
 }
 
+
+.stage.info {
+    background:none;
+    width:488px;
+    height:350px;
+}
+
 .stage.info .nav {
     bottom:0px;
     right:0px;
 }
 
+.stage.info .scrollslider {
+    background: none;
+}
+
 .stage.info .scrollslider .item {
     width:468px;
-    height:280px;
+    /*width:590px;*/
+    height:330px;
     padding:10px;
+    overflow: auto;
 }
 
 .stage .nav * {
@@ -86,6 +99,6 @@
     background  : #eee;
 }
 
-.stage .scrollslider * {
+.stage.demo .scrollslider * {
     cursor      : pointer;
 }
