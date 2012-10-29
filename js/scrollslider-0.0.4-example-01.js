@@ -77,7 +77,7 @@
                     gap         : '10',
                     triggerpartial  : false
                 },
-                help            : [ 'elements listen to the events',
+                help            : [ 'elements listens to the events',
                                     '»scrollslider-shown« and »scrollslider-hide«' ]
             } );
 
@@ -92,24 +92,16 @@
                     width           : '244',
                     height          : '300',
                     distribution    : 'static',
-                    align           : {
-                        horz            : 'center',
-                        vert            : 'middle'
-                    },
                     triggerpartial  : false
                 },
-                help            : [ 'elements listen to the event »scrollslider-shown«' ]
+                help            : [ 'elements listens to the event »scrollslider-shown«' ]
             } );
 
         configs.push( {
                 items           : {
                     width           : '488',
                     height          : '300',
-                    distribution    : 'static',
-                    align           : {
-                        horz            : 'center',
-                        vert            : 'middle'
-                    }
+                    distribution    : 'static'
                 }
             } );
 
@@ -121,8 +113,7 @@
                 orientation     : 'vert',
                 items           : {
                     align           : {
-                        horz            : 'left',
-                        vert            : 'middle'
+                        horz            : 'left'
                     }
                 }
             } );
@@ -132,11 +123,7 @@
                 items           : {
                     width           : '488',
                     height          : '300',
-                    distribution    : 'static',
-                    align           : {
-                        horz            : 'center',
-                        vert            : 'middle'
-                    }
+                    distribution    : 'static'
                 }
             } );
 
