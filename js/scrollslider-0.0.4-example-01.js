@@ -3,10 +3,12 @@
     $( function() {
 
         $( '.stage.info .scrollslider' ).scrollslider( {
+            // width           : '498',
+            // height          : '350',
             items   : {
                 distribution    : 'static',
-                width           : '488',
-                height          : '350',
+                // width           : '488',
+                // height          : '330',
                 centeronclick   : false
             },
             buttons : {
@@ -15,7 +17,9 @@
             },
             styles  : {
                 item            : {
-                    'cursor'        : 'default'
+                    'cursor'        : 'default',
+                    'width'         : '468px',
+                    'height'        : '330px'
                 }
             }
         } );
@@ -30,6 +34,13 @@
         $( '.stage.info .scrollslider' ).children().on( 'scrollslider-shown', function() {
             location.hash= $(this).attr('class').replace( /^.*\s*item\s*(\S+).*$/, '#$1' );
         } );
+
+        // $( 'a', '.stage.info .scrollslider' ).on( 'click', function( event ) {
+        //     var $this = $( this );
+        //     if ( $this.attr( 'href' ).match( /^#/ ) ) {
+        //         event.preventDefault();
+        //     }
+        // } );
 
 
         if ( location.hash ) {

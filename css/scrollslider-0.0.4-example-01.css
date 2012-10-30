@@ -44,6 +44,7 @@
     background:none;
     width:488px;
     height:350px;
+    height:auto;
 }
 
 .stage.info .nav {
@@ -59,6 +60,7 @@
     width:468px;
     /*width:590px;*/
     height:330px;
+    height:auto;
     padding:10px;
     overflow: auto;
 }
