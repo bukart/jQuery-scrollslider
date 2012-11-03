@@ -2,7 +2,7 @@
  * A simple slider for any HTML contents (<ul><li>…</li>…</ul>)
  *
  * @name scrollslider
- * @version 0.0.4
+ * @version 0.0.5
  * @requires jQuery v1.8.1+
  * @author Burkhard Krethlow
  * @url http://bukfixart.github.com/jQuery-scrollslider/
@@ -23,7 +23,7 @@
 
     var __NAME__ = 'scrollslider';
     var __NMSP__ = '.' + __NAME__;
-    var __VER__ = '0.0.4';
+    var __VER__ = '0.0.5';
 
 
     var defaults = {
@@ -605,7 +605,8 @@
             var $prevbutton = plugin.getComponents( 'prevButton' );
             if ( $prevbutton ) {
                 $prevbutton.off(  __NMSP__ + pid ).on( 'click' + __NMSP__ + pid, function( ev ) {
-                    methods.scrollToPrevPage.call( $el );
+                    // methods.scrollToPrevPage.call( $el );
+                    methods.scrollToPrevItem.call( $el );
                     ev.preventDefault();
                     return false;
                 } );
@@ -614,7 +615,8 @@
             var $nextbutton = plugin.getComponents( 'nextButton' );
             if ( $nextbutton ) {
                 $nextbutton.off( __NMSP__ + pid ).on( 'click' + __NMSP__ + pid, function( ev ) {
-                    methods.scrollToNextPage.call( $el );
+                    // methods.scrollToNextPage.call( $el );
+                    methods.scrollToNextItem.call( $el );
                     ev.preventDefault();
                     return false;
                 } );
@@ -1146,6 +1148,52 @@
         args = Array.prototype.slice.apply( args, [1] );
         args.unshift( -viewport.size );
         methods.scrollFor.apply( this, args );
+
+        return $this;
+    } );
+
+    orig.goToNextItem = methods.goToNextItem = ( function goToNextItem() {
+        var $this = this;
+        var plugin = intern._getPlugin( $this );
+
+        var last = plugin.indexesInViewport().pop();
+        methods.goToItem.apply( this, last + 1 );
+
+        return $this;
+    } );
+
+    orig.scrollToNextItem = methods.scrollToNextItem = ( function scrollToNextItem() {
+        var $this = this;
+        var plugin = intern._getPlugin( $this );
+
+        var last = plugin.indexesInViewport().pop();
+        var args = arguments;
+        args = Array.prototype.slice.apply( args, [1] );
+        args.unshift( last + 1 );
+        methods.scrollToItem.apply( this, args );
+
+        return $this;
+    } );
+
+    orig.goToPrevItem = methods.goToPrevItem = ( function goToPrevItem() {
+        var $this = this;
+        var plugin = intern._getPlugin( $this );
+
+        var first = plugin.indexesInViewport().shift();
+        methods.goToItem.apply( this, first - 1 );
+
+        return $this;
+    } );
+
+    orig.scrollToPrevItem = methods.scrollToPrevItem = ( function scrollToPrevItem() {
+        var $this = this;
+        var plugin = intern._getPlugin( $this );
+
+        var first = plugin.indexesInViewport().shift();
+        var args = arguments;
+        args = Array.prototype.slice.apply( args, [1] );
+        args.unshift( first - 1 );
+        methods.scrollToItem.apply( this, args );
 
         return $this;
     } );
